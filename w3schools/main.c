@@ -92,6 +92,51 @@ int main(void)
 		printf("the number is negative.\n");
 	}
 	
+	int time2 = 15;
+	time2 = (time2 < 12) ? printf("good morning.\n") : printf("good aternoon.\n");
+
+	int day = 1;
+
+	switch (day)
+	{
+	case 1:
+		printf("Monday\n");
+		break;
+	case 2:
+		printf("Tuesday\n");
+		break;
+	case 3:
+		printf("Wednesday\n");
+		break;
+	case 4:
+		printf("Thursday\n");
+		break;
+	case 5:
+		printf("Friday\n");
+		break;
+	case 6:
+		printf("Saturday\n");
+		break;
+	case 7:
+		printf("Sunday\n");
+		break;
+	
+	default:
+		break;
+	}
+
+int i = 0;
+
+do
+{
+	printf("%d\n", i);
+	i++;
+} while (i < 5);
+
+    int *ptr;
+
+    *ptr = 98;
+    printf("%d\n", *ptr);
 	
 	return (0);
 }
