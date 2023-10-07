@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /*
- * main - printing a string without prinf
+ * main - printing without prinf
  *
  *  Return: 1
 */
