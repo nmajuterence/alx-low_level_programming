@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * get_op_func - select the function to perform operation
- * @s: operator argument
+ * get_op_func - select the option to perform arithmetic operation.
+ * @s: operator
  *
- * Return: result of selected function
+ * Return: result of selected operation.
 */
 int (*get_op_func(char *s))(int, int)
 {
@@ -15,17 +15,15 @@ int (*get_op_func(char *s))(int, int)
 	{"-", op_sub},
 	{"*", op_mul},
 	{"/", op_div},
-	{"%", op_mod},
+    {"%", op_mod},
 	{NULL, NULL}
-	};
+    };
+    int i;
+    i = 0;
 
-	int i;
-
-	/* initialize i*/
-	i = 0;
-
-	/* s doesn't match any operand */
-	while (ops[i].op != NULL && *(ops[i].op) != *s)
-		i++;
-	return (ops[i].f);
+    while (ops[i].op != NULL && *(ops[i].op) != *s)
+    {
+    	i++;
+    }
+    return (ops[i].f);
 }
