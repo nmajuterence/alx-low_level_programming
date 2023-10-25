@@ -10,7 +10,7 @@
 
 # 4. Free list
 
-# 4. Free list
+# 5. Free
 
 # 6. Pop
 
