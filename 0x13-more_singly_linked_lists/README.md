@@ -1,6 +1,6 @@
 0x13-more_singly_linked_lists
 
-# 0. Print list
+# 0. Print list - Float like a butterfly, sting like a bee
 
 # 1. List length
 
